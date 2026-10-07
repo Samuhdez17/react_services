@@ -5,13 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import ComponentServiceCustomers from './components/ComponentServiceCustomers';
 import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
+import EmpleadosDepartamentos from './components/EmpleadosDepartamentos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <ComponentServiceSuppliers/>
+  <EmpleadosDepartamentos/>
   /*
+  <ComponentServiceSuppliers/>
   <ComponentServiceCustomers/>
-  
    */
 );
 
