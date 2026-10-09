@@ -1,7 +1,8 @@
 const Global = {
     urlNorthwind: 'https://services.odata.org/V4/Northwind/Northwind.svc/',
     urlAzureEmpleados: 'https://apiempleadosspgs.azurewebsites.net/api/Empleados/',
-    urlAzureDepartamentos: 'https://apicruddepartamentospgs.azurewebsites.net/'
+    urlAzureDepartamentos: 'https://apicruddepartamentospgs.azurewebsites.net/',
+    apiCoches: 'https://apicorecrudcoches.azurewebsites.net/'
 }
 
 export default Global

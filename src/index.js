@@ -7,11 +7,15 @@ import ComponentServiceCustomers from './components/ComponentServiceCustomers';
 import ComponentServiceSuppliers from './components/ComponentServiceSuppliers';
 import EmpleadosDepartamentos from './components/EmpleadosDepartamentos';
 import EmpleadosOficios from './empleados_oficios/components/EmpleadosOficios';
+import Departamentos from './maestro_detalle/components/Departamentos';
+import Seleccionador from './practica/components/Seleccionador';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <EmpleadosOficios/>
+  <Seleccionador/>
   /*
+  <Departamentos/>
+  <EmpleadosOficios/>
   <EmpleadosDepartamentos/>
   <ComponentServiceSuppliers/>
   <ComponentServiceCustomers/>
