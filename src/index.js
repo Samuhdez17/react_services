@@ -9,11 +9,24 @@ import EmpleadosDepartamentos from './components/EmpleadosDepartamentos';
 import EmpleadosOficios from './empleados_oficios/components/EmpleadosOficios';
 import Departamentos from './maestro_detalle/components/Departamentos';
 import Seleccionador from './practica/components/Seleccionador';
+import Router from './components/route_con_parms/Router';
+import Menu from './components/route_con_parms/Menu';
+
+import $ from 'jquery';
+import Popper from 'popper.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Seleccionador/>
+  <div style={{
+    margin:'auto',
+    width:'50%'
+  }} >
+    <Router/>
+  </div>
   /*
+  <Seleccionador/>
   <Departamentos/>
   <EmpleadosOficios/>
   <EmpleadosDepartamentos/>
